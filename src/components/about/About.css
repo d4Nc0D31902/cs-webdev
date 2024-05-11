@@ -1,0 +1,57 @@
+/* About.css */
+
+.about-container {
+  background-color: black;
+  height: 100vh;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.about-content {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Wrap items if they exceed the container */
+  justify-content: center; /* Center items horizontally */
+  margin-top: 10px; /* Adjust spacing */
+}
+
+.about-us {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.line {
+  background-color: white;
+  height: 2px;
+  width: 400px;
+  margin-bottom: 20px; /* Adjust spacing */
+}
+
+.image-box {
+  border: 2px solid white;
+  width: 700px;
+  height: 500px;
+  background-image: url("/public//images//about.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-right: px; /* Adjust spacing */
+}
+
+.what-we-do {
+  margin-top: 65px;
+  /* border: 2px solid white; */
+  color: white;
+  font-size: 30px;
+  width: 500px;
+  /* padding: 20px; */
+  padding-left: 20px;
+}
+
+.description {
+  /* margin-top: 20px; */
+  color: white;
+  max-width: 500px; /* Limit width to avoid exceeding container */
+  /* border: 2px solid white; */
+  padding: 20px;
+}

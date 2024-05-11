@@ -1,0 +1,20 @@
+.parallax-container {
+  height: 100vh;
+  background-color: black; 
+  /* border: solid white 2px; */
+}
+
+.parallax1 {
+  background-image: url("/public//images//code.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.parallax-content {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
