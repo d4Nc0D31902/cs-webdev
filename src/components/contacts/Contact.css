@@ -1,0 +1,33 @@
+.contact-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  gap: 20px;
+}
+
+#bottom-widget {
+  overflow: hidden;
+  color: white;
+}
+ul.social-network {
+  margin: 0;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+ul.social-network li {
+  display: inline;
+  margin: 5px 5px;
+  color: white;
+}
+
+ul.social-network li a:hover span .fa-circle {
+  color: #2b2b2b;
+}
+
+ul.social-network li a i {
+  transition: 0.3s;
+}

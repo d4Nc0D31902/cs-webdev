@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: black;
   /* scroll-snap-type: y mandatory;
   scroll-behavior: smooth; */
 }
@@ -13,7 +14,7 @@ body {
 section {
   height: 100vh;
   scroll-snap-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 /* Scroll Bar */
@@ -124,9 +125,10 @@ nav {
 /* Footer */
 footer {
   margin-top: 8rem;
-  color: grey;
+  color: white;
   bottom: 0;
   width: 100%;
+  background-color: black;
 }
 
 /* Ratings */

@@ -6,6 +6,7 @@ import Parallax from "./parallax/Parallax";
 import Works from "./works/Works";
 import Language from "./language/Language";
 import Team from "./team/Team";
+import Contact from "./contacts/Contact";
 const Home = () => {
   return (
     <div>
@@ -27,7 +28,9 @@ const Home = () => {
       <section>
         <Team />
       </section>
-      <section>Contact</section>
+      <section>
+        <Contact />
+      </section>
       {/* <section>Contact</section> */}
     </div>
   );
