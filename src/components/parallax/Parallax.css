@@ -66,12 +66,12 @@
   height: 300px;
   width: 300px;
   margin: 20px;
-  background-color: white;
   text-align: center;
   color: white;
   font-size: 30px;
   padding: 10px;
   background-size: cover;
+  /* filter: blur(2px); */
   background-image: url("/public//images//web-design.jpg");
   align-content: center;
   background-position: center;
@@ -85,7 +85,7 @@
   width: 300px;
   font-size: 30px;
   align-content: center;
-  background-color: white;
+  /* filter: blur(2px); */
   color: white;
   margin: 20px;
   background-size: cover;
@@ -99,12 +99,29 @@
   border: 2px solid white;
   height: 300px;
   font-size: 30px;
-  background-color: white;
   width: 300px;
   align-content: center;
   color: white;
+  /* filter: blur(2px); */
   margin: 20px;
   background-size: cover;
-  background-image: url("/public//images//mobile-app.jpg");
+  background-image: url("/public//images//mobile.jpg");
   background-position: center;
+}
+
+.service-title1 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+}
+.service-title2 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+}
+.service-title3 {
+  border: 2px solid white;
+  background-color: black;
+  border-radius: 20px;
+  font-size: 25px;
 }

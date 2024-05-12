@@ -3,6 +3,9 @@ import "../App.css";
 import Carousel from "../components/carousel/Carousel";
 import About from "../components/about/About";
 import Parallax from "./parallax/Parallax";
+import Works from "./works/Works";
+import Language from "./language/Language";
+import Team from "./team/Team";
 const Home = () => {
   return (
     <div>
@@ -15,9 +18,16 @@ const Home = () => {
       <section>
         <Parallax />
       </section>
-      <section>Portfolio1</section>
-      {/* <section>Portfolio2</section> */}
-      {/* <section>Portfolio3</section> */}
+      <section>
+        <Works />
+      </section>
+      <section>
+        <Language />
+      </section>
+      <section>
+        <Team />
+      </section>
+      <section>Contact</section>
       {/* <section>Contact</section> */}
     </div>
   );

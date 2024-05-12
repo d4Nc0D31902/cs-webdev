@@ -1,0 +1,73 @@
+.language-container {
+  background-color: black;
+  /* border: 2px solid white; */
+  height: 100vh;
+  align-content: center;
+}
+
+.parallax2 {
+  background-image: url("/public//images//polygon.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  /* border: 2px white solid; */
+}
+
+.language-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 120px;
+  overflow: hidden;
+}
+
+.mongo {
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-position: center;
+  background-image: url("/public//images//mdb.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  /* background-size: cover; */
+}
+
+.express {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-position: center;
+  background-image: url("/public//images//ex.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.react {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-position: center;
+  background-image: url("/public//images//react.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+
+.node {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background-position: center;
+  background-image: url("/public//images//node.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}

@@ -14,10 +14,13 @@ const Parallax = () => {
       <div className="white-line" />
       <div className="carousel-container">
         <motion.div className="card1" whileHover={{ scale: 1.1 }}>
+          <div className="service-title1">Web Design</div>
         </motion.div>
         <motion.div className="card2" whileHover={{ scale: 1.1 }}>
+          <div className="service-title2">Web Development</div>
         </motion.div>
         <motion.div className="card3" whileHover={{ scale: 1.1 }}>
+          <div className="service-title3">Mobile Development</div>
         </motion.div>
       </div>
     </div>

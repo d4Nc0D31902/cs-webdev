@@ -1,0 +1,84 @@
+.team-container {
+  background-color: black;
+  height: 100vh;
+}
+
+.our-team {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 2px white solid; */
+  height: 100vh;
+  margin-top: 20px;
+  gap: 20px;
+}
+/* .team-container {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+} */
+
+.team-heading {
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+  border: 2px solid white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.title {
+  color: white;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.b1 {
+  background-size: cover;
+  background-image: url("/public//images//dan.jpg");
+  background-position: center;
+}
+.b2 {
+  background-size: cover;
+  background-image: url("/public//images//nov.jpg");
+  background-position: center;
+}
+.b3 {
+  background-size: cover;
+  background-image: url("/public//images//frans.jpg");
+  background-position: center;
+}
+.b4 {
+  background-size: cover;
+  background-image: url("/public//images//monte.jpg");
+  background-position: center;
+}
+
+.position {
+  color: white;
+  font-size: 15px;
+}
