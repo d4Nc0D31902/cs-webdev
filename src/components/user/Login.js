@@ -7,17 +7,22 @@ import {
   Link,
   Typography,
   Grid,
+  InputAdornment,
+  IconButton,
 } from "@mui/material";
+import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useDispatch, useSelector } from "react-redux";
 import { login, clearErrors } from "../../actions/userActions";
 import Loader from "../layout/Loader";
 import MetaData from "../layout/MetaData";
+import "./Login.css";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [showPassword, setShowPassword] = useState(false); // State to toggle password visibility
   const dispatch = useDispatch();
   const navigate = useNavigate();
   let location = useLocation();
@@ -52,15 +57,7 @@ const Login = () => {
       ) : (
         <Fragment>
           <MetaData title={"Login"} />
-          <Grid
-            container
-            justifyContent="center"
-            sx={{
-                // border: "2px white solid",
-              marginTop: "20px",
-              height: "100vh",
-            }}
-          >
+          <Grid className="container-login" container justifyContent="center">
             <Grid
               item
               xs={10}
@@ -71,12 +68,16 @@ const Login = () => {
             >
               <form
                 style={{
-                  border: "2px solid white",
-                  //   backgroundColor: "white",
+                  border: "1px solid white",
+                  backgroundColor: "transparent",
                   margin: "20px",
                   padding: "20px",
                   height: "480px",
-                  borderRadius: "50px",
+                  borderRadius: "20px",
+                  width: "400px",
+                  alignContent: "center",
+                  marginLeft: "auto",
+                  marginRight: "auto",
                 }}
                 className="shadow-lg"
                 onSubmit={submitHandler}
@@ -108,7 +109,7 @@ const Login = () => {
                 <TextField
                   id="password_field"
                   label="Password"
-                  type="password"
+                  type={showPassword ? "text" : "password"} // Ternary operator to toggle password visibility
                   focused
                   fullWidth
                   value={password}
@@ -116,6 +117,18 @@ const Login = () => {
                   margin="normal"
                   InputProps={{
                     style: { color: "white" },
+                    endAdornment: (
+                      <InputAdornment position="end">
+                        <IconButton
+                          aria-label="toggle password visibility"
+                          onClick={() => setShowPassword(!showPassword)}
+                          edge="end"
+                          style={{ color: "white" }}
+                        >
+                          {showPassword ? <Visibility /> : <VisibilityOff />}
+                        </IconButton>
+                      </InputAdornment>
+                    ),
                   }}
                   InputLabelProps={{
                     style: { color: "white" },
@@ -135,11 +148,11 @@ const Login = () => {
                   id="login_button"
                   type="submit"
                   variant="contained"
-                  color="primary"
+                  color="success"
                   fullWidth
                   size="large"
                   className="py-3"
-                  sx={{ borderRadius: "20px" }}
+                  sx={{ borderRadius: "20px", height: "35px" }}
                 >
                   LOGIN
                 </Button>
