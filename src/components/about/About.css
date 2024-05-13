@@ -1,16 +1,17 @@
+/* Default styles */
 .about-container {
   background-color: black;
   height: 100vh;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-content {
-  display: flex; 
-  flex-wrap: wrap; 
-  justify-content: center; 
-  margin-top: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
 }
 
 .about-us {
@@ -23,7 +24,7 @@
   background-color: white;
   height: 2px;
   width: 400px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .image-box {
@@ -33,23 +34,40 @@
   background-image: url("/public//images//about.jpg");
   background-size: cover;
   background-position: center;
-  margin-right: 50px; 
+  margin-right: 50px;
 }
 
 .what-we-do {
   margin-top: 65px;
-  /* border: 2px solid white; */
   color: white;
   font-size: 30px;
   width: 500px;
-  /* padding: 20px; */
   padding-left: 20px;
 }
 
 .description {
-  /* margin-top: 20px; */
   color: white;
-  max-width: 500px; 
-  /* border: 2px solid white; */
+  max-width: 500px;
   padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-box {
+    width: 100%;
+    margin-right: 0; 
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-us {
+    font-size: 40px; 
+  }
+
+  .what-we-do {
+    width: 100%; 
+  }
+
+  .description {
+    max-width: 100%; 
+  }
 }

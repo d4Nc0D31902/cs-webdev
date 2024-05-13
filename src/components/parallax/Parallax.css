@@ -1,7 +1,6 @@
 .parallax-container {
   height: 100vh;
   background-color: black;
-  /* border: solid white 2px; */
 }
 
 .parallax1 {
@@ -35,31 +34,11 @@
 }
 
 .carousel-container {
-  /* border: 2px solid white; */
   height: 360px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
-
-/* .card1,
-.card2,
-.card3 {
-  position: relative;
-}
-
-.card1::after,
-.card2::after,
-.card3::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5); 
-} */
 
 .card1 {
   border: 2px solid white;
@@ -71,7 +50,6 @@
   font-size: 30px;
   padding: 10px;
   background-size: cover;
-  /* filter: blur(2px); */
   background-image: url("/public//images//web-design.jpg");
   align-content: center;
   background-position: center;
@@ -85,7 +63,6 @@
   width: 300px;
   font-size: 30px;
   align-content: center;
-  /* filter: blur(2px); */
   color: white;
   margin: 20px;
   background-size: cover;
@@ -102,7 +79,6 @@
   width: 300px;
   align-content: center;
   color: white;
-  /* filter: blur(2px); */
   margin: 20px;
   background-size: cover;
   background-image: url("/public//images//mobile.jpg");
@@ -124,4 +100,37 @@
   background-color: black;
   border-radius: 20px;
   font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .parallax1 {
+    height: 300px;
+  }
+
+  .services {
+    font-size: 40px;
+  }
+
+  .white-line {
+    width: 200px;
+  }
+
+  .carousel-container {
+    height: 250px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .service-title1,
+  .service-title2,
+  .service-title3 {
+    font-size: 20px;
+  }
 }
