@@ -30,7 +30,7 @@ const Works = () => {
           title="Team Poor"
           image="./images/team-poor.jpg"
           // description="Description of Project 1"
-          link="https://teampoor-motorcycle-parts-and-services.vercel.app/?fbclid=IwZXh0bgNhZW0CMTAAAR1LobtA4bmqtv8cHSmNFpjLHcxFmG6A2Z5RFMfgfejLlFWeSxxJRNhojVg_aem_Af6UXukn9M-KuTyKBSUKu22jEHVjyoKggC0w37Q_yDmHJqe1pUUZgAWBjARa03BCKYKDj_SbmSR5SwgO3PgKKNrE"
+          link="https://www.teampoor-motorcycle-parts-and-services.online/?fbclid=IwZXh0bgNhZW0CMTAAAR35lBMwVArgTCEpEF2eR0VOKlvxUJyzTtZBYdU1xwW-PmvEcHp0SmYKV6E_aem_AU9IPWOeUk6GIUcAZ6_CCk0j87IXvyv8GO2d0EBqX5evg4Vr1QpcGBTCWzUTycY-MyEnC7Nc-0D0jD1exm5hcZ9-"
         />
         <Card
           title="Scheduler"
