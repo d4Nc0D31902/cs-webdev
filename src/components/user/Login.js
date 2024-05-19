@@ -66,7 +66,7 @@ const Login = () => {
                 alignContent: "center",
               }}
             >
-              <form
+              {/* <form
                 style={{
                   border: "1px solid white",
                   backgroundColor: "transparent",
@@ -109,7 +109,7 @@ const Login = () => {
                 <TextField
                   id="password_field"
                   label="Password"
-                  type={showPassword ? "text" : "password"}
+                  type={showPassword ? "text" : "password"} 
                   focused
                   fullWidth
                   value={password}
@@ -165,8 +165,8 @@ const Login = () => {
                 >
                   New User?
                 </Link>
-              </form>
-              {/* <div className="coming-soon">Coming Soon</div> */}
+              </form> */}
+              <div className="coming-soon">Coming Soon</div>
             </Grid>
           </Grid>
         </Fragment>
