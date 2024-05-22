@@ -102,35 +102,77 @@
   font-size: 25px;
 }
 
-@media (max-width: 767px) {
-  .parallax1 {
-    height: 300px;
-  }
-
+@media screen and (min-width: 300px) and (max-width: 400px) {
   .services {
     font-size: 40px;
   }
 
   .white-line {
-    width: 200px;
-  }
-
-  .carousel-container {
-    height: 250px;
+    width: 100%;
   }
 
   .card1,
   .card2,
   .card3 {
-    height: 200px;
-    width: 200px;
-    font-size: 20px;
-    margin: 10px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 25px;
   }
 
-  .service-title1,
-  .service-title2,
-  .service-title3 {
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+/* Media query for screen sizes between 400px and 700px */
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .services {
+    font-size: 50px;
+  }
+
+  .white-line {
+    width: 100%;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 200px;
+    height: 200px;
+    /* margin: 10px 0; */
     font-size: 20px;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .services {
+    font-size: 50px;
+  }
+
+  .white-line {
+    width: 100%;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 200px;
+    height: 200px;
+    /* margin: 10px 0; */
+    font-size: 20px;
+  }
+
+  .carousel-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
   }
 }

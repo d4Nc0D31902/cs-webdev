@@ -46,66 +46,86 @@
   font-size: 14px;
 }
 
-@media (max-width: 768px) {
-  .works-container {
-    height: auto; /* Adjust height for smaller screens */
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+@media (min-width: 300px) and (max-width: 400px) {
   .our-works {
-    font-size: 40px; /* Adjust font size for smaller screens */
-    margin-top: 30px; /* Adjust margin for smaller screens */
-  }
-
-  .cards-container {
-    margin-top: 10px; /* Adjust margin for smaller screens */
+    font-size: 40px;
+    margin-top: 80%;
   }
 
   .card {
-    width: 300px; /* Adjust width for smaller screens */
-    padding: 15px; /* Adjust padding for smaller screens */
-    /* height: 50px; */
+    width: 300px;
+    height: 320px;
+    padding: 15px;
   }
 
-  .card h2 {
-    font-size: 16px; /* Adjust font size for smaller screens */
-    margin-bottom: 8px; /* Adjust margin for smaller screens */
+  /* .card h2 {
+    font-size: 17px;
   }
 
   .card p {
-    font-size: 12px; /* Adjust font size for smaller screens */
-  }
+    font-size: 13px;
+  } */
 }
 
-@media (max-width: 1024px) {
-  .works-container {
-    height: auto; /* Adjust height for smaller screens */
-    display: flex;
-    flex-wrap: wrap;
-  }
-
+@media (min-width: 400px) and (max-width: 700px) {
   .our-works {
-    font-size: 40px; /* Adjust font size for smaller screens */
-    margin-top: 30px; /* Adjust margin for smaller screens */
-  }
-
-  .cards-container {
-    margin-top: 10px; /* Adjust margin for smaller screens */
+    font-size: 40px;
+    margin-top: 80%;
   }
 
   .card {
-    width: 300px; /* Adjust width for smaller screens */
-    padding: 15px; /* Adjust padding for smaller screens */
-    /* height: 50px; */
+    width: 300px;
+    height: 320px;
+    padding: 15px;
   }
 
-  .card h2 {
-    font-size: 16px; /* Adjust font size for smaller screens */
-    margin-bottom: 8px; /* Adjust margin for smaller screens */
+  /* .card h2 {
+    font-size: 17px;
   }
 
   .card p {
-    font-size: 12px; /* Adjust font size for smaller screens */
+    font-size: 13px;
+  } */
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .our-works {
+    font-size: 40px;
+    margin-top: 80%;
   }
+
+  .card {
+    width: 300px;
+    height: 320px;
+    padding: 15px;
+  }
+
+  /* .card h2 {
+    font-size: 17px;
+  }
+
+  .card p {
+    font-size: 13px;
+  } */
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1024px) {
+  .our-works {
+    font-size: 40px;
+    margin-top: 80%;
+  }
+
+  .card {
+    width: 300px;
+    height: 320px;
+    padding: 15px;
+  }
+
+  /* .card h2 {
+    font-size: 17px;
+  }
+
+  .card p {
+    font-size: 13px;
+  } */
 }

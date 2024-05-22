@@ -82,3 +82,51 @@
   color: white;
   font-size: 15px;
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .our-team {
+    font-size: 45px;
+    margin-top: 70%;
+  }
+
+  .b1,
+  .b2,
+  .b3,
+  .b4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .position {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .our-team {
+    font-size: 45px;
+    margin-top: 90%;
+  }
+
+  .b1,
+  .b2,
+  .b3,
+  .b4 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .position {
+    font-size: 14px;
+  }
+}

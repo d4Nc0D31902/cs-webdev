@@ -31,3 +31,30 @@ ul.social-network li a:hover span .fa-circle {
 ul.social-network li a i {
   transition: 0.3s;
 }
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .contact-container,
+  #bottom-widget,
+  ul.social-network,
+  ul.social-network li {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 700px) {
+  .contact-container,
+  #bottom-widget,
+  ul.social-network,
+  ul.social-network li {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .contact-container,
+  #bottom-widget,
+  ul.social-network,
+  ul.social-network li {
+    display: none;
+  }
+}

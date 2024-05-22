@@ -72,38 +72,79 @@
   /* background-size: cover; */
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 300px) and (max-width: 400px) {
   .parallax2 {
-    height: 400px;
+    margin-top: 180%;
+    height: 300px;
   }
 
   .language-content {
-    padding: 80px; 
+    padding: 50px;
   }
 
   .mongo,
   .express,
   .react,
   .node {
-    width: 150px; 
-    height: 150px;
+    width: 80px;
+    height: 80px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 400px) and (max-width: 700px) {
   .parallax2 {
-    height: 600px; 
+    margin-top: 200%;
+    height: 300px;
   }
 
   .language-content {
-    padding: 150px; 
+    padding: 50px;
   }
 
   .mongo,
   .express,
   .react,
   .node {
-    width: 200px; 
-    height: 200px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .parallax2 {
+    margin-top: 40%;
+    height: 300px;
+  }
+
+  .language-content {
+    padding: 90px;
+  }
+
+  .mongo,
+  .express,
+  .react,
+  .node {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 2000px) {
+  .parallax2 {
+    /* margin-top: 40%; */
+    height: 40%;
+  }
+
+  .language-content {
+    align-content: center;
+    align-items: center;
+  }
+
+  .mongo,
+  .express,
+  .react,
+  .node {
+    width: 140px;
+    height: 140px;
   }
 }
